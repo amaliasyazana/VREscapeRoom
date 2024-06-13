@@ -1009,11 +1009,11 @@ GameObject:
   - component: {fileID: 231007688}
   - component: {fileID: 231007690}
   - component: {fileID: 231007689}
-  - component: {fileID: 231007695}
   - component: {fileID: 231007694}
   - component: {fileID: 231007693}
   - component: {fileID: 231007692}
   - component: {fileID: 231007691}
+  - component: {fileID: 231007695}
   m_Layer: 0
   m_Name: mangetaBook
   m_TagString: Untagged
@@ -1173,8 +1173,8 @@ MonoBehaviour:
   _rigidbody: {fileID: 231007693}
   _kinematicWhileSelected: 1
   _throwWhenUnselected: 1
---- !u!65 &231007695
-BoxCollider:
+--- !u!64 &231007695
+MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -1191,9 +1191,10 @@ BoxCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 2.9999995, y: 10.000001, z: 13.780001}
-  m_Center: {x: 78.798, y: 29.000008, z: 56.11001}
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -8692415578118046954, guid: 7683fc81b38ddc947a788f6272ec6d3d, type: 3}
 --- !u!1 &261313572
 GameObject:
   m_ObjectHideFlags: 0
@@ -3494,9 +3495,9 @@ MeshCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 5
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
-  m_Mesh: {fileID: 0}
+  m_Mesh: {fileID: 4300000, guid: 33b13d9c9b95764488bf2a754ddf4f5f, type: 2}
 --- !u!23 &1043705481
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -5990,8 +5991,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &1716905623
-BoxCollider:
+--- !u!64 &1716905623
+MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -6008,9 +6009,10 @@ BoxCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.6036714, y: 0.4314083, z: 0.21726823}
-  m_Center: {x: 0.008828583, y: -0.0011077056, z: 0.06363017}
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 5e17b417697708646abcd7570ee7a007, type: 2}
 --- !u!1 &1726118297
 GameObject:
   m_ObjectHideFlags: 0
