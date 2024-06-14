@@ -3,21 +3,21 @@ using TMPro;
 
 public class UIController : MonoBehaviour
 {
-    public BoundingBoxVisualizer boundingBoxVisualizer;
-    public TMP_Text boundingBoxStateText;
+    public BoundingShapeVisualizer boundingShapeVisualizer;
+    public TMP_Text boundingShapeStateText;
 
-    public void OnToggleBoundingBoxButtonClicked()
+    public void OnToggleBoundingShapeButtonClicked()
     {
-        boundingBoxVisualizer.ToggleBoundingBox();
-        UpdateBoundingBoxStateText();
+        boundingShapeVisualizer.ToggleBoundingShape();
+        UpdateBoundingShapeStateText();
     }
 
-    private void UpdateBoundingBoxStateText()
+    private void UpdateBoundingShapeStateText()
     {
-        if (boundingBoxVisualizer != null)
+        if (boundingShapeVisualizer != null)
         {
-            bool isShowing = boundingBoxVisualizer.IsBoundingBoxVisible();
-            boundingBoxStateText.text = $"Bounding Box: {(isShowing ? "On" : "Off")}";
+            bool isShowing = boundingShapeVisualizer.IsBoundingShapeVisible();
+            boundingShapeStateText.text = $"Bounding Shape: {(isShowing ? "On" : "Off")}";
         }
     }
 }
