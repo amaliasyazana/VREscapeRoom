@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
-using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
@@ -31,4 +31,3 @@ public class GameManager : MonoBehaviour
         // Add any additional win logic here (e.g., stopping the game, showing a menu, etc.)
     }
 }
-

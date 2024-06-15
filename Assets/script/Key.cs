@@ -13,7 +13,7 @@ public class Key : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Player"))
+        if (other.CompareTag("Hand")) // Assuming the hand or controller has the tag "Hand"
         {
             gameManager.KeyFound();
             Destroy(gameObject); // Remove the key from the scene
