@@ -5,19 +5,19 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
-    public int totalKeys = 3; // Total number of keys to be found
-    private int keysFound = 0;
-    public GameObject winText; // UI Text to show when the player wins
+    public GameObject winText; // Assign this in the Inspector
+    private bool gameWon = false;
 
-    void Start()
+    public void InitializeGame()
     {
-        winText.SetActive(false); // Hide the win text at the start
+        // Add initialization code here, e.g., enabling player controls
+        Debug.Log("Game Started");
+        winText.SetActive(false); // Ensure win text is hidden at the start
     }
 
     public void KeyFound()
     {
-        keysFound++;
-        if (keysFound >= totalKeys)
+        if (!gameWon)
         {
             WinGame();
         }
@@ -25,9 +25,9 @@ public class GameManager : MonoBehaviour
 
     private void WinGame()
     {
-        // Show the win text
+        gameWon = true;
         winText.SetActive(true);
-
-        // Add any additional win logic here (e.g., stopping the game, showing a menu, etc.)
+        Debug.Log("You Win!");
     }
 }
+
