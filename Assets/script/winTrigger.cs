@@ -1,3 +1,5 @@
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 
 public class winTrigger : MonoBehaviour
@@ -15,7 +17,7 @@ public class winTrigger : MonoBehaviour
     {
         Debug.Log("Collided with: " + other.gameObject.name);
 
-        if (other.CompareTag("Player"))
+        if (other.CompareTag("key"))
         {
             if (time.currentTime > 0)
             {
