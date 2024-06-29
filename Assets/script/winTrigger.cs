@@ -1,5 +1,6 @@
 using UnityEngine.SceneManagement;
 using Unity.VisualScripting;
+using System.Collections;
 using UnityEngine;
 
 public class winTrigger : MonoBehaviour
@@ -37,6 +38,7 @@ public class winTrigger : MonoBehaviour
                 PlayerPrefs.SetInt("timetaken", (int)time.duration - (int)time.currentTime);
                 Cursor.lockState = CursorLockMode.None;
                 ShowWinText();
+                StartCoroutine(LoadStartSceneAfterDelay(10f)); // Start coroutine to load start scene after 15 seconds
             }
             else
             {
@@ -49,5 +51,11 @@ public class winTrigger : MonoBehaviour
     {
         Debug.Log("Showing win text.");
         winText.SetActive(true);
+    }
+
+    IEnumerator LoadStartSceneAfterDelay(float delay)
+    {
+        yield return new WaitForSeconds(delay);
+        SceneManager.LoadScene("startScene");
     }
 }
