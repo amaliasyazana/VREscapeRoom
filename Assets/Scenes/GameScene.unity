@@ -3522,7 +3522,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 406173505}
-  - component: {fileID: 406173506}
+  - component: {fileID: 406173507}
+  - component: {fileID: 406173508}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -3545,7 +3546,23 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &406173506
+--- !u!114 &406173507
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 406173503}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 913859e2b11673948a591ddf78ee99ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timeText: {fileID: 103822627}
+  loseText: {fileID: 46379747}
+  duration: 30
+  currentTime: 30
+--- !u!114 &406173508
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3557,10 +3574,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1fd8b955c8634fa4ea4670a00071cb00, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timerText: {fileID: 0}
   winText: {fileID: 202473449}
-  loseText: {fileID: 46379747}
-  gameTime: 60
+  door: {fileID: 0}
+  keyPickupSound: {fileID: 0}
+  doorOpenSound: {fileID: 0}
 --- !u!1 &411668847
 GameObject:
   m_ObjectHideFlags: 0
@@ -12483,9 +12500,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1274692779}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dc2633c0a5a23d24b9fd7361f48369f8, type: 3}
+  m_Script: {fileID: 11500000, guid: 7fc381ff77c7c19479d15b2375743c88, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  winText: {fileID: 202473449}
 --- !u!1 &1278294798
 GameObject:
   m_ObjectHideFlags: 0
@@ -13300,7 +13318,7 @@ BoxCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Size: {x: 1.3544353, y: 0.77900684, z: 0.032051478}
   m_Center: {x: 0.0021288998, y: -0.0017271757, z: -0.7336955}

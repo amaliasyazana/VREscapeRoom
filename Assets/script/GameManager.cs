@@ -1,71 +1,45 @@
 using System.Collections;
-using UnityEngine;
+using System.Collections.Generic;
 using UnityEngine.UI;
+using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
-    public Text timerText; // Assign this in the Inspector
     public GameObject winText; // Assign this in the Inspector
-    public GameObject loseText; // Assign this in the Inspector
-    public float gameTime = 60f; // Total time in seconds
+    public GameObject door; // Assign this in the Inspector
+    public AudioClip keyPickupSound; // Assign this in the Inspector
+    public AudioClip doorOpenSound; // Assign this in the Inspector
 
-    private bool gameRunning = false;
-    private float currentTime;
-
-    void Start()
-    {
-        InitializeGame();
-    }
+    private bool gameWon = false;
+    private int keysCollected = 0;
+    private int requiredKeys = 2; // Adjust this to require more keys to win
 
     public void InitializeGame()
     {
-        currentTime = gameTime;
-        winText.SetActive(false);
-        loseText.SetActive(false);
-        gameRunning = true;
-        StartCoroutine(GameTimer());
+        // Add initialization code here, e.g., enabling player controls
+        Debug.Log("Game Started");
+        winText.SetActive(false); // Ensure win text is hidden at the start
+        door.SetActive(false); // Ensure door is closed at the start
     }
 
-    IEnumerator GameTimer()
+    public void KeyFound()
     {
-        while (gameRunning && currentTime > 0)
-        {
-            currentTime -= Time.deltaTime;
-            UpdateTimerText();
-            yield return null;
-        }
+        keysCollected++;
+        Debug.Log("Key found! (" + keysCollected + "/" + requiredKeys + ")");
+        AudioSource.PlayClipAtPoint(keyPickupSound, transform.position);
 
-        if (currentTime <= 0)
+        if (keysCollected >= requiredKeys)
         {
-            LoseGame();
+            WinGame();
         }
     }
 
-    void UpdateTimerText()
-{
-    Debug.Log($"Updating Timer: {currentTime:F2}");
-    timerText.text = $"Time: {currentTime:F2}";
-}
-
-public void FindKey()
-{
-    Debug.Log("Key found!");
-    if (gameRunning)
+    private void WinGame()
     {
-        WinGame();
-    }
-}
-
-
-    void WinGame()
-    {
-        gameRunning = false;
+        gameWon = true;
         winText.SetActive(true);
-    }
-
-    void LoseGame()
-    {
-        gameRunning = false;
-        loseText.SetActive(true);
+        door.SetActive(true);
+        AudioSource.PlayClipAtPoint(doorOpenSound, transform.position);
+        Debug.Log("You Win!");
     }
 }
