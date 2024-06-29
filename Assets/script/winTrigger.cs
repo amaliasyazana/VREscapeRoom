@@ -1,5 +1,5 @@
-using System.Collections;
-using System.Collections.Generic;
+using UnityEngine.SceneManagement;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class winTrigger : MonoBehaviour
@@ -10,6 +10,16 @@ public class winTrigger : MonoBehaviour
     void Start()
     {
         time = GameObject.Find("GameManager").GetComponent<TimeCountdown>();
+        if (time == null)
+        {
+            Debug.LogError("TimeCountdown script not found on GameManager.");
+        }
+
+        if (winText == null)
+        {
+            Debug.LogError("Win text not assigned in the Inspector.");
+        }
+
         winText.SetActive(false); // Ensure win text is hidden at the start
     }
 
@@ -19,17 +29,25 @@ public class winTrigger : MonoBehaviour
 
         if (other.CompareTag("key"))
         {
+            Debug.Log("Player detected.");
+
             if (time.currentTime > 0)
             {
+                Debug.Log("Time remaining: " + time.currentTime);
                 PlayerPrefs.SetInt("timetaken", (int)time.duration - (int)time.currentTime);
                 Cursor.lockState = CursorLockMode.None;
                 ShowWinText();
+            }
+            else
+            {
+                Debug.Log("Time is up.");
             }
         }
     }
 
     void ShowWinText()
     {
+        Debug.Log("Showing win text.");
         winText.SetActive(true);
     }
 }

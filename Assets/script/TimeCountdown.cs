@@ -8,6 +8,7 @@ public class TimeCountdown : MonoBehaviour
     public GameObject loseText; // Assign this in the Inspector
     public float duration, currentTime;
     private string unit = "seconds";
+    private bool gameRunning = true; // Flag to control the game state
 
     void Start()
     {
@@ -19,7 +20,7 @@ public class TimeCountdown : MonoBehaviour
 
     IEnumerator TimeUpdate()
     {
-        while (currentTime > 0)
+        while (currentTime > 0 && gameRunning)
         {
             yield return new WaitForSeconds(1f);
             currentTime -= 1;
@@ -34,7 +35,7 @@ public class TimeCountdown : MonoBehaviour
         }
 
         // Time out -> show lose text
-        if (currentTime <= 0)
+        if (currentTime <= 0 && gameRunning)
         {
             ShowLoseText();
         }
@@ -48,5 +49,10 @@ public class TimeCountdown : MonoBehaviour
     void ShowLoseText()
     {
         loseText.SetActive(true);
+    }
+
+    public void StopTimer()
+    {
+        gameRunning = false;
     }
 }
