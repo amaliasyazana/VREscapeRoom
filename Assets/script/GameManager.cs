@@ -1,33 +1,71 @@
 using System.Collections;
-using System.Collections.Generic;
-using UnityEngine.UI;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
+    public Text timerText; // Assign this in the Inspector
     public GameObject winText; // Assign this in the Inspector
-    private bool gameWon = false;
+    public GameObject loseText; // Assign this in the Inspector
+    public float gameTime = 60f; // Total time in seconds
+
+    private bool gameRunning = false;
+    private float currentTime;
+
+    void Start()
+    {
+        InitializeGame();
+    }
 
     public void InitializeGame()
     {
-        // Add initialization code here, e.g., enabling player controls
-        Debug.Log("Game Started");
-        winText.SetActive(false); // Ensure win text is hidden at the start
+        currentTime = gameTime;
+        winText.SetActive(false);
+        loseText.SetActive(false);
+        gameRunning = true;
+        StartCoroutine(GameTimer());
     }
 
-    public void KeyFound()
+    IEnumerator GameTimer()
     {
-        if (!gameWon)
+        while (gameRunning && currentTime > 0)
         {
-            WinGame();
+            currentTime -= Time.deltaTime;
+            UpdateTimerText();
+            yield return null;
+        }
+
+        if (currentTime <= 0)
+        {
+            LoseGame();
         }
     }
 
-    private void WinGame()
+    void UpdateTimerText()
+{
+    Debug.Log($"Updating Timer: {currentTime:F2}");
+    timerText.text = $"Time: {currentTime:F2}";
+}
+
+public void FindKey()
+{
+    Debug.Log("Key found!");
+    if (gameRunning)
     {
-        gameWon = true;
-        winText.SetActive(true);
-        Debug.Log("You Win!");
+        WinGame();
     }
 }
 
+
+    void WinGame()
+    {
+        gameRunning = false;
+        winText.SetActive(true);
+    }
+
+    void LoseGame()
+    {
+        gameRunning = false;
+        loseText.SetActive(true);
+    }
+}
