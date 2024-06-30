@@ -2226,8 +2226,8 @@ MonoBehaviour:
   timeText: {fileID: 103822627}
   loseText: {fileID: 46379747}
   restartButton: {fileID: 649821151}
-  duration: 60
-  currentTime: 60
+  duration: 10
+  currentTime: 10
 --- !u!1 &438860247
 GameObject:
   m_ObjectHideFlags: 0
@@ -2266,7 +2266,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 6385fc3a74af0064ba3ebc712a3403b6, type: 2}
+  - {fileID: 2100000, guid: a7977c490235da5489e70c78372c087e, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
