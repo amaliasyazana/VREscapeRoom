@@ -1,11 +1,13 @@
 using System.Collections;
 using UnityEngine;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class TimeCountdown : MonoBehaviour
 {
     public TextMeshProUGUI timeText; // Assign this in the Inspector
     public GameObject loseText; // Assign this in the Inspector
+    public GameObject restartButton; // Assign this in the Inspector
     public float duration, currentTime;
     private string unit = "seconds";
 
@@ -13,6 +15,7 @@ public class TimeCountdown : MonoBehaviour
     {
         currentTime = duration;
         loseText.SetActive(false); // Hide the lose text at the start
+        restartButton.SetActive(false); // Hide the restart button at the start
         UpdateTimeText();
         StartCoroutine(TimeUpdate());
     }
@@ -33,10 +36,11 @@ public class TimeCountdown : MonoBehaviour
             UpdateTimeText();
         }
 
-        // Time out -> show lose text
+        // Time out -> show lose text and restart button
         if (currentTime <= 0)
         {
             ShowLoseText();
+            ShowRestartButton();
         }
     }
 
@@ -48,5 +52,15 @@ public class TimeCountdown : MonoBehaviour
     void ShowLoseText()
     {
         loseText.SetActive(true);
+    }
+
+    void ShowRestartButton()
+    {
+        restartButton.SetActive(true);
+    }
+
+    public void RestartGame()
+    {
+        SceneManager.LoadScene("startScene");
     }
 }
