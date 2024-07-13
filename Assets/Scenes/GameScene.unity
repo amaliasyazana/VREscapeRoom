@@ -2342,6 +2342,7 @@ MonoBehaviour:
   loseText: {fileID: 46379747}
   restartButton: {fileID: 649821151}
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< Updated upstream
   duration: 60
   currentTime: 60
@@ -2349,6 +2350,10 @@ MonoBehaviour:
   duration: 100
   currentTime: 100
 >>>>>>> Stashed changes
+=======
+  duration: 10
+  currentTime: 10
+>>>>>>> parent of e4b0cef (start scene baru)
 =======
   duration: 10
   currentTime: 10

@@ -1217,6 +1217,7 @@ Rigidbody:
   m_Constraints: 0
   m_CollisionDetection: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 --- !u!4 &155874846 stripped
 Transform:
@@ -1232,6 +1233,14 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+=======
+--- !u!1 &157041239
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+>>>>>>> parent of e4b0cef (start scene baru)
   serializedVersion: 6
   m_Component:
   - component: {fileID: 157041240}
@@ -1288,6 +1297,9 @@ Transform:
   m_Children: []
   m_Father: {fileID: 45847643}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
+>>>>>>> parent of e4b0cef (start scene baru)
+=======
 >>>>>>> parent of e4b0cef (start scene baru)
 --- !u!1 &165071581
 GameObject:
@@ -1875,9 +1887,12 @@ MeshFilter:
   m_GameObject: {fileID: 223974226}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 =======
 =======
+=======
+>>>>>>> parent of e4b0cef (start scene baru)
 --- !u!1 &239447291
 GameObject:
   m_ObjectHideFlags: 0
@@ -1915,6 +1930,9 @@ Transform:
   - {fileID: 575283167}
   m_Father: {fileID: 680234941}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
+>>>>>>> parent of e4b0cef (start scene baru)
+=======
 >>>>>>> parent of e4b0cef (start scene baru)
 --- !u!1 &261313572
 GameObject:
@@ -1948,8 +1966,11 @@ Transform:
   m_Father: {fileID: 438860250}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> Stashed changes
 =======
+=======
+>>>>>>> parent of e4b0cef (start scene baru)
 --- !u!1 &265281410
 GameObject:
   m_ObjectHideFlags: 0
@@ -2204,6 +2225,9 @@ Transform:
   - {fileID: 965757945}
   m_Father: {fileID: 1571108350}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
+>>>>>>> parent of e4b0cef (start scene baru)
+=======
 >>>>>>> parent of e4b0cef (start scene baru)
 --- !u!1 &313445252
 GameObject:
@@ -2326,11 +2350,15 @@ MonoBehaviour:
   winText: {fileID: 0}
   restartButton: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 --- !u!1 &330462086
 =======
 --- !u!1 &375094688
 >>>>>>> Stashed changes
+=======
+--- !u!1 &342704449
+>>>>>>> parent of e4b0cef (start scene baru)
 =======
 --- !u!1 &342704449
 >>>>>>> parent of e4b0cef (start scene baru)
@@ -2341,6 +2369,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< Updated upstream
   - component: {fileID: 330462087}
@@ -2360,15 +2389,25 @@ GameObject:
   m_Layer: 0
   m_Name: b_trigger_front
 >>>>>>> parent of e4b0cef (start scene baru)
+=======
+  - component: {fileID: 342704450}
+  m_Layer: 0
+  m_Name: b_trigger_front
+>>>>>>> parent of e4b0cef (start scene baru)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 --- !u!224 &330462087
 RectTransform:
+=======
+--- !u!4 &342704450
+Transform:
+>>>>>>> parent of e4b0cef (start scene baru)
 =======
 --- !u!4 &342704450
 Transform:
@@ -2387,6 +2426,7 @@ Transform:
   m_Father: {fileID: 1220804523}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
@@ -2397,6 +2437,8 @@ Transform:
 --- !u!114 &375094689
 >>>>>>> Stashed changes
 =======
+=======
+>>>>>>> parent of e4b0cef (start scene baru)
 --- !u!1 &346082576
 GameObject:
   m_ObjectHideFlags: 0
@@ -2663,6 +2705,9 @@ GameObject:
   m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!114 &375094689
+<<<<<<< HEAD
+>>>>>>> parent of e4b0cef (start scene baru)
+=======
 >>>>>>> parent of e4b0cef (start scene baru)
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2675,6 +2720,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a56d62db66b88854282b2323e2a89feb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< Updated upstream
   m_Material: {fileID: 0}
@@ -2790,16 +2836,23 @@ CanvasRenderer:
 --- !u!82 &375094690
 AudioSource:
 >>>>>>> parent of e4b0cef (start scene baru)
+=======
+--- !u!82 &375094690
+AudioSource:
+>>>>>>> parent of e4b0cef (start scene baru)
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< Updated upstream
   m_GameObject: {fileID: 330462086}
   m_CullTransparentMesh: 1
 =======
 =======
+=======
+>>>>>>> parent of e4b0cef (start scene baru)
   m_GameObject: {fileID: 375094688}
   m_Enabled: 1
   serializedVersion: 4
@@ -2896,6 +2949,9 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
+>>>>>>> parent of e4b0cef (start scene baru)
+=======
 >>>>>>> parent of e4b0cef (start scene baru)
   m_GameObject: {fileID: 375094688}
   serializedVersion: 2
@@ -2907,8 +2963,11 @@ Transform:
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> Stashed changes
 =======
+=======
+>>>>>>> parent of e4b0cef (start scene baru)
 --- !u!1 &384005166
 GameObject:
   m_ObjectHideFlags: 0
@@ -2995,6 +3054,9 @@ SkinnedMeshRenderer:
     m_Center: {x: -0.009029879, y: -0.064930744, z: -0.06743039}
     m_Extent: {x: 0.0043483684, y: 0.0068749115, z: 0.006839171}
   m_DirtyAABB: 0
+<<<<<<< HEAD
+>>>>>>> parent of e4b0cef (start scene baru)
+=======
 >>>>>>> parent of e4b0cef (start scene baru)
 --- !u!1 &387088628
 GameObject:
@@ -3423,9 +3485,12 @@ Transform:
   m_PrefabInstance: {fileID: 1107812625}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 =======
 =======
+=======
+>>>>>>> parent of e4b0cef (start scene baru)
 --- !u!1 &455147333
 GameObject:
   m_ObjectHideFlags: 0
@@ -3673,6 +3738,9 @@ Transform:
   m_Children: []
   m_Father: {fileID: 68288547}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
+>>>>>>> parent of e4b0cef (start scene baru)
+=======
 >>>>>>> parent of e4b0cef (start scene baru)
 --- !u!1 &491447905
 GameObject:
@@ -3808,8 +3876,11 @@ CanvasRenderer:
   m_GameObject: {fileID: 491447905}
   m_CullTransparentMesh: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> Stashed changes
 =======
+=======
+>>>>>>> parent of e4b0cef (start scene baru)
 --- !u!1 &494450523
 GameObject:
   m_ObjectHideFlags: 0
@@ -3878,6 +3949,9 @@ Transform:
   - {fileID: 220571871}
   m_Father: {fileID: 265281411}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
+>>>>>>> parent of e4b0cef (start scene baru)
+=======
 >>>>>>> parent of e4b0cef (start scene baru)
 --- !u!1 &496446557
 GameObject:
@@ -4400,8 +4474,12 @@ Transform:
   m_Father: {fileID: 728897023}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 --- !u!1 &540994782
+=======
+--- !u!1 &540886256
+>>>>>>> parent of e4b0cef (start scene baru)
 =======
 --- !u!1 &540886256
 >>>>>>> parent of e4b0cef (start scene baru)
@@ -4461,9 +4539,12 @@ MonoBehaviour:
     _installationRoutineId: 
     _installationVariants: []
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 =======
 =======
+=======
+>>>>>>> parent of e4b0cef (start scene baru)
 --- !u!1 &547712601
 GameObject:
   m_ObjectHideFlags: 0
@@ -4558,6 +4639,9 @@ Transform:
   - {fileID: 2115679268}
   m_Father: {fileID: 190660483}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
+>>>>>>> parent of e4b0cef (start scene baru)
+=======
 >>>>>>> parent of e4b0cef (start scene baru)
 --- !u!1 &552420330
 GameObject:
@@ -4604,7 +4688,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of e4b0cef (start scene baru)
 --- !u!1 &557741738
 GameObject:
   m_ObjectHideFlags: 0
@@ -4643,6 +4730,9 @@ Transform:
   - {fileID: 1620669731}
   m_Father: {fileID: 1077600950}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
+>>>>>>> parent of e4b0cef (start scene baru)
+=======
 >>>>>>> parent of e4b0cef (start scene baru)
 --- !u!1 &559680650
 GameObject:
@@ -4689,7 +4779,10 @@ Transform:
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> Stashed changes
+=======
+>>>>>>> parent of e4b0cef (start scene baru)
 =======
 >>>>>>> parent of e4b0cef (start scene baru)
 --- !u!1 &564014975
@@ -4850,11 +4943,15 @@ MeshCollider:
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: 316563ea1eebc1d4fb7d17f97dd66b36, type: 2}
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 --- !u!1 &597241834
 =======
 --- !u!1 &579397112
 >>>>>>> Stashed changes
+=======
+--- !u!1 &564814248
+>>>>>>> parent of e4b0cef (start scene baru)
 =======
 --- !u!1 &564814248
 >>>>>>> parent of e4b0cef (start scene baru)
@@ -4865,6 +4962,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< Updated upstream
   - component: {fileID: 597241836}
@@ -4889,11 +4987,23 @@ GameObject:
   m_Layer: 0
   m_Name: File cabinet 02
 >>>>>>> parent of e4b0cef (start scene baru)
+=======
+  - component: {fileID: 564814249}
+  - component: {fileID: 564814255}
+  - component: {fileID: 564814254}
+  - component: {fileID: 564814253}
+  - component: {fileID: 564814252}
+  - component: {fileID: 564814251}
+  - component: {fileID: 564814250}
+  m_Layer: 0
+  m_Name: File cabinet 02
+>>>>>>> parent of e4b0cef (start scene baru)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< Updated upstream
 --- !u!114 &597241835
@@ -5045,17 +5155,24 @@ GameObject:
 =======
 --- !u!4 &564814249
 >>>>>>> parent of e4b0cef (start scene baru)
+=======
+--- !u!4 &564814249
+>>>>>>> parent of e4b0cef (start scene baru)
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< Updated upstream
   m_GameObject: {fileID: 597241834}
 =======
   m_GameObject: {fileID: 593198761}
 >>>>>>> Stashed changes
+=======
+  m_GameObject: {fileID: 564814248}
+>>>>>>> parent of e4b0cef (start scene baru)
 =======
   m_GameObject: {fileID: 564814248}
 >>>>>>> parent of e4b0cef (start scene baru)
@@ -5309,11 +5426,15 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< Updated upstream
   m_Father: {fileID: 0}
 =======
   m_Father: {fileID: 1118043588}
 >>>>>>> Stashed changes
+=======
+  m_Father: {fileID: 821298034}
+>>>>>>> parent of e4b0cef (start scene baru)
 =======
   m_Father: {fileID: 821298034}
 >>>>>>> parent of e4b0cef (start scene baru)
@@ -5846,9 +5967,14 @@ Transform:
   m_Father: {fileID: 538140811}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 --- !u!1001 &647944570
 PrefabInstance:
+=======
+--- !u!1 &614951309
+GameObject:
+>>>>>>> parent of e4b0cef (start scene baru)
 =======
 --- !u!1 &614951309
 GameObject:
@@ -5858,9 +5984,12 @@ GameObject:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> Stashed changes
 =======
+=======
+>>>>>>> parent of e4b0cef (start scene baru)
   serializedVersion: 6
   m_Component:
   - component: {fileID: 614951310}
@@ -6456,6 +6585,9 @@ SkinnedMeshRenderer:
     m_Center: {x: -3.5085695, y: 0.08475034, z: -0.17565808}
     m_Extent: {x: 0.10651159, y: 0.18774159, z: 0.45612463}
   m_DirtyAABB: 0
+<<<<<<< HEAD
+>>>>>>> parent of e4b0cef (start scene baru)
+=======
 >>>>>>> parent of e4b0cef (start scene baru)
 --- !u!1 &654918690
 GameObject:
@@ -7906,14 +8038,20 @@ GameObject:
   m_PrefabInstance: {fileID: 1118043587}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 =======
 =======
+=======
+>>>>>>> parent of e4b0cef (start scene baru)
 --- !u!4 &820179253 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2478579677981785246, guid: f54012181eacade4ea242c65f804720f, type: 3}
   m_PrefabInstance: {fileID: 1118043587}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
+>>>>>>> parent of e4b0cef (start scene baru)
+=======
 >>>>>>> parent of e4b0cef (start scene baru)
 --- !u!1 &821298033
 GameObject:
@@ -8049,8 +8187,11 @@ CanvasRenderer:
   m_GameObject: {fileID: 821298033}
   m_CullTransparentMesh: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> Stashed changes
 =======
+=======
+>>>>>>> parent of e4b0cef (start scene baru)
 --- !u!1 &832022656
 GameObject:
   m_ObjectHideFlags: 0
@@ -8082,6 +8223,9 @@ Transform:
   m_Children: []
   m_Father: {fileID: 843245464}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
+>>>>>>> parent of e4b0cef (start scene baru)
+=======
 >>>>>>> parent of e4b0cef (start scene baru)
 --- !u!1001 &832927686
 PrefabInstance:
@@ -9087,9 +9231,12 @@ CapsuleCollider:
   m_Direction: 1
   m_Center: {x: -0.93486613, y: 187.049, z: -8.503658}
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 =======
 =======
+=======
+>>>>>>> parent of e4b0cef (start scene baru)
 --- !u!1 &899540923
 GameObject:
   m_ObjectHideFlags: 0
@@ -9152,6 +9299,9 @@ Transform:
   m_Children: []
   m_Father: {fileID: 414361657}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
+>>>>>>> parent of e4b0cef (start scene baru)
+=======
 >>>>>>> parent of e4b0cef (start scene baru)
 --- !u!1 &916928379
 GameObject:
@@ -9229,8 +9379,11 @@ CanvasRenderer:
   m_GameObject: {fileID: 916928379}
   m_CullTransparentMesh: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> Stashed changes
 =======
+=======
+>>>>>>> parent of e4b0cef (start scene baru)
 --- !u!1 &938888389
 GameObject:
   m_ObjectHideFlags: 0
@@ -9354,6 +9507,9 @@ SkinnedMeshRenderer:
     m_Center: {x: 0.008180305, y: -0.0053694975, z: -0.020344593}
     m_Extent: {x: 0.046097822, y: 0.067293465, z: 0.0557265}
   m_DirtyAABB: 0
+<<<<<<< HEAD
+>>>>>>> parent of e4b0cef (start scene baru)
+=======
 >>>>>>> parent of e4b0cef (start scene baru)
 --- !u!1 &946507876
 GameObject:
@@ -10459,8 +10615,12 @@ MeshFilter:
   m_GameObject: {fileID: 1029135354}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 --- !u!1 &1061420136
+=======
+--- !u!1 &1034034357
+>>>>>>> parent of e4b0cef (start scene baru)
 =======
 --- !u!1 &1034034357
 >>>>>>> parent of e4b0cef (start scene baru)
@@ -10852,9 +11012,12 @@ Transform:
   m_Father: {fileID: 2110568959}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> Stashed changes
 =======
+=======
+>>>>>>> parent of e4b0cef (start scene baru)
 --- !u!95 &1055502437
 Animator:
   serializedVersion: 5
@@ -11178,6 +11341,9 @@ SkinnedMeshRenderer:
     m_Center: {x: 0.00616638, y: -0.029108923, z: -0.018820617}
     m_Extent: {x: 0.033926036, y: 0.042694185, z: 0.05639166}
   m_DirtyAABB: 0
+<<<<<<< HEAD
+>>>>>>> parent of e4b0cef (start scene baru)
+=======
 >>>>>>> parent of e4b0cef (start scene baru)
 --- !u!114 &1084706158
 MonoBehaviour:
@@ -11961,6 +12127,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_RemovedGameObjects:
 <<<<<<< Updated upstream
     - {fileID: 2483242947507321544, guid: f54012181eacade4ea242c65f804720f, type: 3}
@@ -11979,15 +12146,25 @@ PrefabInstance:
 =======
     - {fileID: 2482315907430333982, guid: f54012181eacade4ea242c65f804720f, type: 3}
     - {fileID: 2483242947507321544, guid: f54012181eacade4ea242c65f804720f, type: 3}
+=======
+    m_RemovedGameObjects: []
+>>>>>>> parent of e4b0cef (start scene baru)
     m_AddedGameObjects:
-    - targetCorrespondingSourceObject: {fileID: 2483171112402213428, guid: f54012181eacade4ea242c65f804720f, type: 3}
+    - targetCorrespondingSourceObject: {fileID: 2478579677981785246, guid: f54012181eacade4ea242c65f804720f, type: 3}
       insertIndex: -1
+<<<<<<< HEAD
       addedObject: {fileID: 871940347}
     - targetCorrespondingSourceObject: {fileID: 2483171112402218544, guid: f54012181eacade4ea242c65f804720f, type: 3}
       insertIndex: -1
       addedObject: {fileID: 593198762}
 >>>>>>> Stashed changes
 =======
+      addedObject: {fileID: 1034034358}
+>>>>>>> parent of e4b0cef (start scene baru)
+=======
+      addedObject: {fileID: 2110568959}
+    - targetCorrespondingSourceObject: {fileID: 2484316072432802598, guid: f54012181eacade4ea242c65f804720f, type: 3}
+      insertIndex: -1
       addedObject: {fileID: 1034034358}
 >>>>>>> parent of e4b0cef (start scene baru)
     m_AddedComponents:
@@ -12032,6 +12209,7 @@ PrefabInstance:
       addedObject: {fileID: 29229467}
   m_SourcePrefab: {fileID: 100100000, guid: f54012181eacade4ea242c65f804720f, type: 3}
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 =======
 --- !u!4 &1118043588 stripped
@@ -12046,6 +12224,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
 >>>>>>> Stashed changes
 =======
+=======
+>>>>>>> parent of e4b0cef (start scene baru)
 --- !u!1 &1126916924
 GameObject:
   m_ObjectHideFlags: 0
@@ -12201,6 +12381,9 @@ Transform:
   - {fileID: 1052715870}
   m_Father: {fileID: 1952682498}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
+>>>>>>> parent of e4b0cef (start scene baru)
+=======
 >>>>>>> parent of e4b0cef (start scene baru)
 --- !u!1 &1181348142
 GameObject:
@@ -12369,8 +12552,12 @@ MeshFilter:
   m_GameObject: {fileID: 1184312770}
   m_Mesh: {fileID: 4300000, guid: 9e70298dfc1bf3c4fba474d5997088e2, type: 2}
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 --- !u!1 &1191751665
+=======
+--- !u!1 &1190441040
+>>>>>>> parent of e4b0cef (start scene baru)
 =======
 --- !u!1 &1190441040
 >>>>>>> parent of e4b0cef (start scene baru)
@@ -12490,8 +12677,12 @@ MeshFilter:
   m_GameObject: {fileID: 1196490603}
   m_Mesh: {fileID: 4300000, guid: cdf16f25799a1344789c049fc81f3590, type: 2}
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 --- !u!1 &1212744679
+=======
+--- !u!1 &1215250955
+>>>>>>> parent of e4b0cef (start scene baru)
 =======
 --- !u!1 &1215250955
 >>>>>>> parent of e4b0cef (start scene baru)
@@ -12601,11 +12792,14 @@ GameObject:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_GameObject: {fileID: 1212744679}
   m_CullTransparentMesh: 1
 =======
 >>>>>>> Stashed changes
 =======
+=======
+>>>>>>> parent of e4b0cef (start scene baru)
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1236593172}
@@ -12724,6 +12918,9 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1952682498}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
+>>>>>>> parent of e4b0cef (start scene baru)
+=======
 >>>>>>> parent of e4b0cef (start scene baru)
 --- !u!1001 &1273941707
 PrefabInstance:
@@ -12927,8 +13124,12 @@ MonoBehaviour:
   _kinematicWhileSelected: 1
   _throwWhenUnselected: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 --- !u!1 &1282599509
+=======
+--- !u!1 &1278294798
+>>>>>>> parent of e4b0cef (start scene baru)
 =======
 --- !u!1 &1278294798
 >>>>>>> parent of e4b0cef (start scene baru)
@@ -13036,6 +13237,7 @@ SkinnedMeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_AdditionalVertexStreams: {fileID: 0}
 --- !u!224 &1282599512
 RectTransform:
@@ -13059,6 +13261,8 @@ RectTransform:
 =======
 >>>>>>> Stashed changes
 =======
+=======
+>>>>>>> parent of e4b0cef (start scene baru)
   serializedVersion: 2
   m_Quality: 0
   m_UpdateWhenOffscreen: 0
@@ -13072,6 +13276,9 @@ RectTransform:
     m_Center: {x: 0.03454852, y: 0.0005114786, z: 0.00007304177}
     m_Extent: {x: 0.0009967163, y: 0.0020704702, z: 0.004453361}
   m_DirtyAABB: 0
+<<<<<<< HEAD
+>>>>>>> parent of e4b0cef (start scene baru)
+=======
 >>>>>>> parent of e4b0cef (start scene baru)
 --- !u!1 &1284907212
 GameObject:
@@ -13398,11 +13605,15 @@ Light:
   m_ShadowRadius: 0
   m_ShadowAngle: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 --- !u!1 &1318811716
 =======
 --- !u!1 &1319146624
 >>>>>>> Stashed changes
+=======
+--- !u!1 &1318279644
+>>>>>>> parent of e4b0cef (start scene baru)
 =======
 --- !u!1 &1318279644
 >>>>>>> parent of e4b0cef (start scene baru)
@@ -13413,6 +13624,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< Updated upstream
   - component: {fileID: 1318811719}
@@ -13435,11 +13647,17 @@ GameObject:
   m_Layer: 0
   m_Name: b_stick
 >>>>>>> parent of e4b0cef (start scene baru)
+=======
+  - component: {fileID: 1318279645}
+  m_Layer: 0
+  m_Name: b_stick
+>>>>>>> parent of e4b0cef (start scene baru)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< Updated upstream
 --- !u!114 &1318811717
@@ -13448,11 +13666,248 @@ GameObject:
 >>>>>>> Stashed changes
 =======
 --- !u!4 &1318279645
+=======
+--- !u!4 &1318279645
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1318279644}
+  serializedVersion: 2
+  m_LocalRotation: {x: 6.123234e-17, y: -6.123234e-17, z: 6.123234e-17, w: 1}
+  m_LocalPosition: {x: 0.0106373895, y: -0.009418557, z: 0.00497835}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1738328536}
+  m_Father: {fileID: 1328089157}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1318860068
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1318860069}
+  - component: {fileID: 1318860070}
+  m_Layer: 0
+  m_Name: MetaQuestTouchPro_Right
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1318860069
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1318860068}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1808210325}
+  - {fileID: 970142650}
+  - {fileID: 79537601}
+  - {fileID: 843245464}
+  m_Father: {fileID: 2110568959}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &1318860070
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1318860068}
+  m_Enabled: 1
+  m_Avatar: {fileID: 9000000, guid: c933168a9a0f1e04bb793786b96e2f4b, type: 3}
+  m_Controller: {fileID: 9100000, guid: 4da77ccaa334a3e45961430811956356, type: 2}
+  m_CullingMode: 1
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!1 &1319146624
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1319146630}
+  - component: {fileID: 1319146629}
+  - component: {fileID: 1319146628}
+  - component: {fileID: 1319146627}
+  - component: {fileID: 1319146626}
+  - component: {fileID: 1319146625}
+  m_Layer: 5
+  m_Name: Canvas (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1319146625
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1319146624}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb86ba9d4c5126e48bfef9b0c9550e9d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _interactorFilters: []
+  _maxInteractors: -1
+  _maxSelectingInteractors: -1
+  _data: {fileID: 0}
+  _pointableElement: {fileID: 1319146626}
+  _surface: {fileID: 1907830663}
+  _selectSurface: {fileID: 0}
+  _movementProvider: {fileID: 0}
+  _tiebreakerScore: 0
+--- !u!114 &1319146626
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1319146624}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ffe41fe81087fa41a2062cc69b99615, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _transferOnSecondSelection: 0
+  _addNewPointsToFront: 0
+  _forwardElement: {fileID: 0}
+  _canvas: {fileID: 1319146629}
+--- !u!114 &1319146627
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1319146624}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &1319146628
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1319146624}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UiScaleMode: 0
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 800, y: 600}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 0
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+  m_PresetInfoIsWorld: 1
+--- !u!223 &1319146629
+Canvas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1319146624}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 2
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_VertexColorAlwaysGammaSpace: 0
+  m_AdditionalShaderChannelsFlag: 25
+  m_UpdateRectTransformForStandalone: 0
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_TargetDisplay: 0
+--- !u!224 &1319146630
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1319146624}
+  m_LocalRotation: {x: -0, y: -0.7029432, z: -0, w: -0.711246}
+  m_LocalPosition: {x: 0, y: 0, z: 0.188}
+  m_LocalScale: {x: 0.001, y: 0.001, z: 0.001}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 916928380}
+  - {fileID: 491447906}
+  - {fileID: 821298034}
+  - {fileID: 1907830666}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 449.327, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 1.002, y: 1.541}
+  m_SizeDelta: {x: 1920, y: 1080}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &1322634332
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1322634333}
+  m_Layer: 0
+  m_Name: right_laser_begin
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1322634333
+>>>>>>> parent of e4b0cef (start scene baru)
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 1318279644}
   serializedVersion: 2
   m_LocalRotation: {x: 6.123234e-17, y: -6.123234e-17, z: 6.123234e-17, w: 1}
@@ -13932,6 +14387,18 @@ RectTransform:
   m_Pivot: {x: 0.5, y: 0.5}
 >>>>>>> Stashed changes
 =======
+>>>>>>> parent of e4b0cef (start scene baru)
+=======
+  m_GameObject: {fileID: 1322634332}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.0034610122, y: -0.056587044, z: -0.060950357, w: 0.99652946}
+  m_LocalPosition: {x: -0.009, y: -0.0032102852, z: 0.030869998}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 411668848}
+  m_Father: {fileID: 680234941}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 >>>>>>> parent of e4b0cef (start scene baru)
 --- !u!1 &1323471298
 GameObject:
@@ -14679,11 +15146,15 @@ MeshFilter:
   m_GameObject: {fileID: 1399782730}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 --- !u!1 &1505682119
 =======
 --- !u!1 &1430861905
 >>>>>>> Stashed changes
+=======
+--- !u!1 &1405876002
+>>>>>>> parent of e4b0cef (start scene baru)
 =======
 --- !u!1 &1405876002
 >>>>>>> parent of e4b0cef (start scene baru)
@@ -14694,6 +15165,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< Updated upstream
   - component: {fileID: 1505682125}
@@ -14709,6 +15181,11 @@ GameObject:
 >>>>>>> Stashed changes
   m_Layer: 5
   m_Name: Canvas (1)
+=======
+  - component: {fileID: 1405876003}
+  m_Layer: 0
+  m_Name: right_b_button_oculus
+>>>>>>> parent of e4b0cef (start scene baru)
 =======
   - component: {fileID: 1405876003}
   m_Layer: 0
@@ -14741,6 +15218,7 @@ GameObject:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< Updated upstream
   m_GameObject: {fileID: 1505682119}
   m_Enabled: 1
@@ -14755,6 +15233,8 @@ GameObject:
 --- !u!114 &1505682122
 MonoBehaviour:
 =======
+=======
+>>>>>>> parent of e4b0cef (start scene baru)
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1415573122}
@@ -14768,6 +15248,9 @@ MonoBehaviour:
   m_IsActive: 1
 --- !u!4 &1415573122
 Transform:
+<<<<<<< HEAD
+>>>>>>> parent of e4b0cef (start scene baru)
+=======
 >>>>>>> parent of e4b0cef (start scene baru)
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -15191,6 +15674,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
 <<<<<<< HEAD
+<<<<<<< HEAD
   - {fileID: 1761105429}
   - {fileID: 1758865100}
   - {fileID: 1212744680}
@@ -15207,6 +15691,8 @@ Transform:
   m_CullTransparentMesh: 1
 >>>>>>> Stashed changes
 =======
+=======
+>>>>>>> parent of e4b0cef (start scene baru)
   - {fileID: 1485302408}
   m_Father: {fileID: 433965540}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -15917,6 +16403,9 @@ Transform:
   m_Children: []
   m_Father: {fileID: 45847643}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
+>>>>>>> parent of e4b0cef (start scene baru)
+=======
 >>>>>>> parent of e4b0cef (start scene baru)
 --- !u!1 &1577749883
 GameObject:
@@ -16118,9 +16607,14 @@ MonoBehaviour:
   _faceTargetDirection: 0
   _eyeLevel: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 --- !u!54 &1600812354
 Rigidbody:
+=======
+--- !u!1 &1605677498
+GameObject:
+>>>>>>> parent of e4b0cef (start scene baru)
 =======
 --- !u!1 &1605677498
 GameObject:
@@ -16129,6 +16623,7 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
   m_GameObject: {fileID: 1600812346}
   serializedVersion: 4
@@ -16154,6 +16649,8 @@ GameObject:
 =======
 >>>>>>> Stashed changes
 =======
+=======
+>>>>>>> parent of e4b0cef (start scene baru)
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1605677499}
@@ -16566,6 +17063,9 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1666155107}
   m_Mesh: {fileID: 4300000, guid: 365abe74c2adfdc43910c84d79ebd00e, type: 2}
+<<<<<<< HEAD
+>>>>>>> parent of e4b0cef (start scene baru)
+=======
 >>>>>>> parent of e4b0cef (start scene baru)
 --- !u!1 &1667630247
 GameObject:
@@ -16768,8 +17268,12 @@ Transform:
   m_Father: {fileID: 538140811}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 --- !u!1 &1724872947
+=======
+--- !u!1 &1688337761
+>>>>>>> parent of e4b0cef (start scene baru)
 =======
 --- !u!1 &1688337761
 >>>>>>> parent of e4b0cef (start scene baru)
@@ -16998,11 +17502,14 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_GameObject: {fileID: 1724872947}
   m_CullTransparentMesh: 1
 =======
 >>>>>>> Stashed changes
 =======
+=======
+>>>>>>> parent of e4b0cef (start scene baru)
   m_GameObject: {fileID: 1716905615}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -17095,6 +17602,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 882a462b5179a6e46bd70eb863b2b178, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
+>>>>>>> parent of e4b0cef (start scene baru)
+=======
 >>>>>>> parent of e4b0cef (start scene baru)
 --- !u!1 &1731190802
 GameObject:
@@ -17325,8 +17835,12 @@ MeshFilter:
   m_GameObject: {fileID: 1746060221}
   m_Mesh: {fileID: 4300000, guid: 408e662db76a21f41a9320e4623ff97f, type: 2}
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 --- !u!1 &1758865099
+=======
+--- !u!1 &1772368815
+>>>>>>> parent of e4b0cef (start scene baru)
 =======
 --- !u!1 &1772368815
 >>>>>>> parent of e4b0cef (start scene baru)
@@ -17383,11 +17897,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_GameObject: {fileID: 1761105428}
   m_CullTransparentMesh: 1
 =======
 >>>>>>> Stashed changes
 =======
+=======
+>>>>>>> parent of e4b0cef (start scene baru)
   m_GameObject: {fileID: 1773259108}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
@@ -17397,6 +17914,9 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1395050424}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
+>>>>>>> parent of e4b0cef (start scene baru)
+=======
 >>>>>>> parent of e4b0cef (start scene baru)
 --- !u!1 &1778296096
 GameObject:
@@ -18248,9 +18768,12 @@ Transform:
   m_Father: {fileID: 538140811}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 =======
 =======
+=======
+>>>>>>> parent of e4b0cef (start scene baru)
 --- !u!1 &1907758799
 GameObject:
   m_ObjectHideFlags: 0
@@ -18283,6 +18806,9 @@ Transform:
   - {fileID: 996597656}
   m_Father: {fileID: 1500199724}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
+>>>>>>> parent of e4b0cef (start scene baru)
+=======
 >>>>>>> parent of e4b0cef (start scene baru)
 --- !u!1 &1907830662
 GameObject:
@@ -18366,8 +18892,11 @@ MonoBehaviour:
   _position: {x: 0, y: 0, z: 0}
   _size: {x: 1000, y: 800, z: 1}
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> Stashed changes
 =======
+=======
+>>>>>>> parent of e4b0cef (start scene baru)
 --- !u!1 &1928101428
 GameObject:
   m_ObjectHideFlags: 0
@@ -18399,6 +18928,9 @@ Transform:
   m_Children: []
   m_Father: {fileID: 645622075}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
+>>>>>>> parent of e4b0cef (start scene baru)
+=======
 >>>>>>> parent of e4b0cef (start scene baru)
 --- !u!1001 &1928558893
 PrefabInstance:
@@ -18940,8 +19472,12 @@ MeshFilter:
   m_GameObject: {fileID: 2011212468}
   m_Mesh: {fileID: 4300000, guid: 3d7dd38b64738eb4e886b9d6ae2531a5, type: 2}
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 --- !u!1 &2042553636
+=======
+--- !u!1 &2018282814
+>>>>>>> parent of e4b0cef (start scene baru)
 =======
 --- !u!1 &2018282814
 >>>>>>> parent of e4b0cef (start scene baru)
@@ -18974,6 +19510,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 46967632}
+<<<<<<< HEAD
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2020741127
 GameObject:
@@ -19200,6 +19737,225 @@ Transform:
 =======
 >>>>>>> Stashed changes
 =======
+>>>>>>> parent of e4b0cef (start scene baru)
+=======
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2020741127
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2020741128}
+  m_Layer: 0
+  m_Name: b_button03
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2020741128
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2020741127}
+  serializedVersion: 2
+  m_LocalRotation: {x: -1.7347238e-17, y: 2.15808e-40, z: -5.5294307e-17, w: 1}
+  m_LocalPosition: {x: 0.01229044, y: -0.0007094415, z: -0.013889479}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1328089157}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2025071515
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2025071516}
+  m_Layer: 0
+  m_Name: left_b_trigger_grip
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2025071516
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2025071515}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.10486942, y: -0.07999015, z: -0.12395867, w: 0.9834827}
+  m_LocalPosition: {x: 1.032056, y: -2.177939, z: 1.289754}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1697324493}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2028372442
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2028372443}
+  - component: {fileID: 2028372444}
+  m_Layer: 0
+  m_Name: r_controller_ply
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2028372443
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2028372442}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 433965540}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!137 &2028372444
+SkinnedMeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2028372442}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 3
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 840110603815307103, guid: e878dcbefebb86f478a53130d09dd0ac, type: 3}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  serializedVersion: 2
+  m_Quality: 0
+  m_UpdateWhenOffscreen: 0
+  m_SkinnedMotionVectors: 1
+  m_Mesh: {fileID: 4300000, guid: 37ba10a26a648144fa2390c8adfb2c8a, type: 3}
+  m_Bones:
+  - {fileID: 414361657}
+  - {fileID: 1514626683}
+  - {fileID: 1278294799}
+  - {fileID: 913470748}
+  - {fileID: 958625017}
+  - {fileID: 974425911}
+  - {fileID: 2142777989}
+  m_BlendShapeWeights: []
+  m_RootBone: {fileID: 414361657}
+  m_AABB:
+    m_Center: {x: 0.009499997, y: 0.01770607, z: -0.0011095554}
+    m_Extent: {x: 0.04527676, y: 0.05372102, z: 0.06648618}
+  m_DirtyAABB: 0
+--- !u!1 &2044189981
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2044189982}
+  m_Layer: 0
+  m_Name: b_button_oculus
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2044189982
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2044189981}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.545621, y: 0.545621, z: 0.44977522, w: 0.44977522}
+  m_LocalPosition: {x: -0.009500173, y: 0.023247808, z: -0.006128987}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 789573323}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2051574968
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2051574969}
+  m_Layer: 0
+  m_Name: prp00002questController_animrig:f_world
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2051574969
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2051574968}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 503091877}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 >>>>>>> parent of e4b0cef (start scene baru)
 --- !u!1 &2058521666
 GameObject:
