@@ -2341,6 +2341,7 @@ MonoBehaviour:
   timeText: {fileID: 103822627}
   loseText: {fileID: 46379747}
   restartButton: {fileID: 649821151}
+<<<<<<< HEAD
 <<<<<<< Updated upstream
   duration: 60
   currentTime: 60
@@ -2348,6 +2349,10 @@ MonoBehaviour:
   duration: 100
   currentTime: 100
 >>>>>>> Stashed changes
+=======
+  duration: 10
+  currentTime: 10
+>>>>>>> parent of e4b0cef (start scene baru)
 --- !u!1 &438860247
 GameObject:
   m_ObjectHideFlags: 0
@@ -10080,11 +10085,6 @@ MonoBehaviour:
   objects:
   - {fileID: 564014975}
   - {fileID: 64615167}
-  - {fileID: 768512548}
-  - {fileID: 1399782730}
-  - {fileID: 387088628}
-  - {fileID: 863841878}
-  - {fileID: 1029135354}
   nodeColor: {r: 0, g: 1, b: 0, a: 1}
   leafColor: {r: 1, g: 0, b: 0, a: 1}
   showBVH: 1
