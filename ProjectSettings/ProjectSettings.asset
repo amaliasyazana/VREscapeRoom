@@ -163,8 +163,7 @@ PlayerSettings:
   resetResolutionOnWindowResize: 0
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
-  applicationIdentifier:
-    Android: com.DefaultCompany.ProjectRTCG
+  applicationIdentifier: {}
   buildNumber:
     Standalone: 0
     VisionOS: 0
