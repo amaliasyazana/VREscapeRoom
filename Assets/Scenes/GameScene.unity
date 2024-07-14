@@ -306,6 +306,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4b76215e51a6ffb49b2ebff3b7e6d8bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  rb: {fileID: 0}
 --- !u!1 &41022991
 GameObject:
   m_ObjectHideFlags: 0
@@ -1170,6 +1171,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4b76215e51a6ffb49b2ebff3b7e6d8bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  rb: {fileID: 0}
 --- !u!54 &155874845
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -3246,6 +3248,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4b76215e51a6ffb49b2ebff3b7e6d8bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  rb: {fileID: 0}
 --- !u!4 &521686634 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2483171112402218544, guid: f54012181eacade4ea242c65f804720f, type: 3}
@@ -3549,8 +3552,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 48bad2a1f8ab78645a8ed71f46297533, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  boxColor: {r: 0, g: 1, b: 0, a: 1}
-  combinedBoxColor: {r: 1, g: 0, b: 0, a: 1}
+  boxColor:
+    r: 0
+    g: 1
+    b: 0
+    a: 1
+  combinedBoxColor:
+    r: 1
+    g: 0
+    b: 0
+    a: 1
+  showBoundingBox: 0
+  lineRenderer: {fileID: 0}
+  combinedLineRenderer: {fileID: 0}
   isParent: 1
 --- !u!64 &564014981
 MeshCollider:
@@ -5233,6 +5247,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 59f23ec216074a540b0c5625bed9e349, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  lights: []
 --- !u!1 &812031561 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8805280462619932607, guid: f54012181eacade4ea242c65f804720f, type: 3}
@@ -7237,6 +7252,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4b76215e51a6ffb49b2ebff3b7e6d8bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  rb: {fileID: 0}
 --- !u!54 &1084706159
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -8039,8 +8055,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 48bad2a1f8ab78645a8ed71f46297533, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  boxColor: {r: 0, g: 1, b: 0, a: 1}
-  combinedBoxColor: {r: 1, g: 0, b: 0, a: 1}
+  boxColor:
+    r: 0
+    g: 1
+    b: 0
+    a: 1
+  combinedBoxColor:
+    r: 1
+    g: 0
+    b: 0
+    a: 1
+  showBoundingBox: 0
+  lineRenderer: {fileID: 0}
+  combinedLineRenderer: {fileID: 0}
   isParent: 0
 --- !u!54 &1274692784
 Rigidbody:
@@ -9965,8 +9992,8 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 0
-  m_IsKinematic: 0
+  m_UseGravity: 1
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
