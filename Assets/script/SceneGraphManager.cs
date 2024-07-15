@@ -1,115 +1,65 @@
 using UnityEngine;
-using System.Collections.Generic;
 
 public class SceneGraphManager : MonoBehaviour
 {
-    public GameObject[] parents;  // Array of parent objects to manage
-
-    private Dictionary<Transform, List<Transform>> parentChildMap;
-
-    void Start()
-    {
-        parentChildMap = new Dictionary<Transform, List<Transform>>();
-
-        foreach (var parent in parents)
-        {
-            InitializeParent(parent.transform);
-        }
-    }
-
-    void InitializeParent(Transform parent)
-    {
-        if (!parentChildMap.ContainsKey(parent))
-        {
-            parentChildMap[parent] = new List<Transform>();
-        }
-
-        foreach (Transform child in parent)
-        {
-            if (!parentChildMap[parent].Contains(child))
-            {
-                parentChildMap[parent].Add(child);
-            }
-        }
-    }
+    public GameObject specificParent; // Assign the specific parent GameObject in the Inspector
+    public GameObject[] specificChildren; // Assign the specific child GameObjects in the Inspector
 
     void Update()
     {
-        foreach (var parent in parents)
+        if (specificParent == null || specificChildren == null || specificChildren.Length == 0)
         {
-            Transform parentTransform = parent.transform;
-            Bounds parentBounds = GetBounds(parent);
+            Debug.LogError("Specific parent or children not assigned!");
+            return;
+        }
 
-            // Check for new children added to the parent
-            foreach (Transform child in parentTransform)
+        // Get the parent's mesh bounds
+        Bounds parentBounds = GetMeshColliderBounds(specificParent);
+
+        foreach (GameObject child in specificChildren)
+        {
+            if (child == null)
             {
-                if (!parentChildMap[parentTransform].Contains(child))
+                Debug.LogError("One of the specific children is not assigned!");
+                continue;
+            }
+
+            // Check if the child's position is inside the parent's bounding box
+            if (parentBounds.Contains(child.transform.position))
+            {
+                // If the child is not already a child of the parent, make it a child
+                if (child.transform.parent != specificParent.transform)
                 {
-                    parentChildMap[parentTransform].Add(child);
-                    Debug.Log($"{child.name} added to {parent.name}.");
+                    child.transform.SetParent(specificParent.transform);
+                    Debug.Log($"Child '{child.name}' is now parented to the parent.");
                 }
             }
-
-            // Check if any child moved out of the parent's bounds
-            List<Transform> childrenToRemove = new List<Transform>();
-            foreach (var child in parentChildMap[parentTransform])
+            else
             {
-                if (child != null && !parentBounds.Contains(child.position))
+                // If the child is currently a child of the parent, unparent it
+                if (child.transform.parent == specificParent.transform)
                 {
-                    HandleOutOfBounds(child, parent);
-                    childrenToRemove.Add(child);
+                    child.transform.SetParent(null);
+                    Debug.Log($"Child '{child.name}' is now unparented from the parent.");
                 }
             }
-
-            // Remove children that have been reparented
-            foreach (var child in childrenToRemove)
-            {
-                parentChildMap[parentTransform].Remove(child);
-            }
         }
     }
 
-    Bounds GetBounds(GameObject obj)
+    // Function to get the mesh bounds of the object with a MeshCollider
+    private Bounds GetMeshColliderBounds(GameObject obj)
     {
-        Collider collider = obj.GetComponent<Collider>();
-        if (collider != null)
+        MeshCollider meshCollider = obj.GetComponent<MeshCollider>();
+        if (meshCollider != null && meshCollider.sharedMesh != null)
         {
-            return collider.bounds;
+            Bounds bounds = meshCollider.bounds;
+            return bounds;
         }
-        return new Bounds(obj.transform.position, Vector3.zero);
-    }
-
-    void HandleOutOfBounds(Transform child, GameObject currentParent)
-    {
-        // Detach the child from the current parent
-        Debug.Log($"{child.name} moved out of {currentParent.name}'s bounds.");
-        child.SetParent(null);
-
-        // Optionally, find a new parent for the child
-        FindNewParent(child);
-    }
-
-    void FindNewParent(Transform child)
-    {
-        foreach (var parent in parents)
+        else
         {
-            Bounds parentBounds = GetBounds(parent);
-            if (parentBounds.Contains(child.position))
-            {
-                // Set the child to the new parent
-                child.SetParent(parent.transform);
-
-                // Adjust the local position to ensure it remains within bounds
-                child.localPosition = parent.transform.InverseTransformPoint(child.position);
-
-                // Update the parent-child map
-                parentChildMap[parent.transform].Add(child);
-
-                Debug.Log($"{child.name} is now a child of {parent.name}.");
-                return;
-            }
+            Debug.LogError("Object must have a MeshCollider component with a valid mesh to calculate bounds.");
+            // Fallback to transform position with zero size bounds
+            return new Bounds(obj.transform.position, Vector3.zero);
         }
-
-        Debug.Log($"{child.name} has no suitable new parent and remains unparented.");
     }
 }
