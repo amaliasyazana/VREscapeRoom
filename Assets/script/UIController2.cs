@@ -25,6 +25,14 @@ public class UIController2 : MonoBehaviour
         {
             Debug.LogWarning("No Light components found in the scene.");
         }
+        else
+        {
+            // Turn off all lights at the start
+            foreach (var light in lights)
+            {
+                light.enabled = false;
+            }
+        }
 
         UpdateBVHStateText();
         UpdateLightStateText();
@@ -36,20 +44,6 @@ public class UIController2 : MonoBehaviour
         {
             bvhVisualizer.showBVH = !bvhVisualizer.showBVH;
             UpdateBVHStateText();
-        }
-    }
-
-    public void OnToggleLightButtonClicked()
-    {
-        Debug.Log("Toggle Light Button Clicked");
-        if (lights != null && lights.Length > 0)
-        {
-            foreach (var light in lights)
-            {
-                light.enabled = !light.enabled;
-            }
-            UpdateLightStateText();
-            Debug.Log("Lights toggled");
         }
     }
 
@@ -76,5 +70,11 @@ public class UIController2 : MonoBehaviour
             }
             lightStateText.text = $"Lights: {(anyLightOn ? "On" : "Off")}";
         }
+    }
+
+    // Method to update light state text externally
+    public void RefreshLightStateText()
+    {
+        UpdateLightStateText();
     }
 }
