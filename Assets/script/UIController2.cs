@@ -68,7 +68,7 @@ public class UIController2 : MonoBehaviour
                     break;
                 }
             }
-            lightStateText.text = $"Lights: {(anyLightOn ? "On" : "Off")}";
+            lightStateText.text = $"Scenegraph: {(anyLightOn ? "On" : "Off")}";
         }
     }
 
